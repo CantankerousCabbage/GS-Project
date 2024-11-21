@@ -1,0 +1,36 @@
+
+
+GET http://localhost:5006/games
+
+###
+
+GET http://localhost:5006/games/2
+
+###
+
+POST http://localhost:5006/games
+Content-Type: application/json
+
+//Payload definitiion (matched to Dto)
+{
+    "name" : "best game x 2",
+    "genreId" : 1,
+    "price" : 20.88,
+    "ReleaseDAte" : "2011-11-18"
+}
+
+###
+
+PUT http://localhost:5006/games/2
+Content-Type: application/json
+
+{
+    "name" : "updated game",
+    "genreID" : 1,
+    "price" : 20.88,
+    "ReleaseDAte" : "2011-11-18"
+}
+
+###
+
+DELETE http://localhost:5006/games/2

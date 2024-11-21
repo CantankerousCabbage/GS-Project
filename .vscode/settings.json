@@ -1,0 +1,9 @@
+{
+    "dotnet.defaultSolution": "GameStore.sln",
+    "files.associations":{
+        "*.sln": "csharp",
+        "*.cache": "xml",
+        "*.http": "http"
+    }
+
+}
